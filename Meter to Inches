@@ -1,0 +1,5 @@
+#here get input from user to convert inches value
+
+meter = int(input("Enter the value in meter/s: "))
+convert = meter/0.0254
+print("The meter converted to inches",convert)
