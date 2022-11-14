@@ -1,0 +1,8 @@
+#here I use if..else condition for checking the criteria
+
+age = int(input("Enter your age: "))
+health_check = input("Any health issues in your body (y/n): ")
+if 17<age<70 and health_check=='n':
+    print(True)
+else: 
+    print(False)
