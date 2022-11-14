@@ -1,0 +1,5 @@
+#finding discounted amount in this task
+original_amount = int(input("Enter your total amount: "))
+discount = int(input("Enter your discount amount: "))
+discounted_amount = original_amount - discount
+print("your new total after discount: ",discounted_amount)
