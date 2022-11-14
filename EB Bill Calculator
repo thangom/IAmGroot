@@ -1,0 +1,6 @@
+#In this cade we can find EB bill calculation
+
+power_consumption = int(input("Enter the power Consumed in units: "))
+cost = int(input("Enter the Cost per unit: "))
+bill_amount = (power_consumption - 100) * cost
+print("Your EB Bill amount: ",bill_amount)
