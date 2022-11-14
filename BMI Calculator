@@ -1,0 +1,6 @@
+#This code use to check your Body Mass Index value
+
+height = float(input("Enter your height in m: "))
+weight = float(input("Enter your weight in kg: "))
+bmi = weight/(height*height)
+print("Your Body Mass Index is",bmi)
