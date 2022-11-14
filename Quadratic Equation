@@ -1,0 +1,7 @@
+#here the quadratic equation solved by easy way
+
+a,b,c = map(int,input("Enter the Co-efficients: ").split())
+d = (b**2 -4*a*c)**0.5
+ans1 = (- b + d)/(2*a)
+ans2 = (- b - d)/(2*a)
+print("The quadratic eqution solutions are",ans1,"and",ans2)
