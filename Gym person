@@ -1,0 +1,18 @@
+#you are gym person or not
+
+gym_days=input("Enter your gym days in month: ")#present days denotes 1 absent days denotes 0
+gym_days_count1=gym_days.count('1')
+gym_days_count0=gym_days.count('0')
+
+if gym_days_count1!=0:
+    if gym_days_count1==gym_days_count0 or gym_days_count1>gym_days_count0 or gym_days_count0>gym_days_count1:
+        if gym_days_count0==0:
+            print("You're Hardcore Gym rat")
+        elif abs(gym_days_count1-gym_days_count0)==1 or gym_days_count1==gym_days_count0:
+            print("You're Regularly Gym going person")
+        else:
+            print("you're Occasionally Gym visitor")
+else:
+    print("You took leave for Gym")
+    
+    
