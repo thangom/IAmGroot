@@ -1,0 +1,8 @@
+#checking given number is odd or not
+
+num=int(input("Enter your lucky number: "))
+if num%2==0:
+    print("Your Lucky number is Even Family")
+else:
+    print("Your Lucky number is Odd Family")
+    
