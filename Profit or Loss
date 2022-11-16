@@ -1,0 +1,11 @@
+#here I find the Investment goes profit or loss
+
+investment=int(input("Enter your Investments: "))
+returns=int(input("Enter your Returns: "))
+if investment>returns:
+    print("Your Investments are going loss and your loss is",returns-investment)
+elif investment==returns:
+    print("Your Investments are Safe, But your profit is 0")
+else:
+    print("Your Investments are Profitable and your profit is",returns-investment)
+    
